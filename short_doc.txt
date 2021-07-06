@@ -1,0 +1,5 @@
+Character format specifier : %c 
+For Signed Integer format specifier : %d, %i 
+Unsigned Integer Format Specifier: %u:
+Floating-point format specifier : %f, %e or %E 
+String printing: %s 
