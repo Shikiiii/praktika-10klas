@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-int sum(int a[6], int len, int s) {
+float sum(float a[6], int len, float s) {
     if(len < 0) {
         return s;
     }
@@ -12,9 +12,9 @@ int sum(int a[6], int len, int s) {
 }
 
 int main() {
-    int arr[6] = {5, 3, 2, 6, 7, 0};
+    float arr[6] = {5.35, 3, 2, 6, 7, 0};
     int len = 6;
-    int s = 0;
-    printf("Sum: %d", sum(arr, len, s));
+    float s = 0;
+    printf("Sum: %f", sum(arr, len, s));
     return EXIT_SUCCESS;
 }
