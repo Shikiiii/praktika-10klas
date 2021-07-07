@@ -16,10 +16,15 @@ int main() {
     int n;
     printf("Enter number to be checked: \n");
     scanf("%d", &n);
+    // little bit of hard-coding 
     if(n == 1) {
         printf("1 is not a prime number. :D");
         return EXIT_SUCCESS;
-    }
+    } else if(n == 2) {
+        printf("2 is a prime number.");
+    } else if(n == 3) {
+        printf("3 is a prime number.");
+    } 
     int counter = 2;
     int isPrime = checkPrime(n, counter);
     if(isPrime == 1) {
