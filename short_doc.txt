@@ -3,3 +3,10 @@ For Signed Integer format specifier : %d, %i
 Unsigned Integer Format Specifier: %u:
 Floating-point format specifier : %f, %e or %E 
 String printing: %s 
+
+Clear console function:
+void clearConsole() {
+    for(int j = 0; j < 30; j++) {
+        printf("\n");
+    }
+}
