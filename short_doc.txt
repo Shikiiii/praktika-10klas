@@ -4,6 +4,8 @@ Unsigned Integer Format Specifier: %u:
 Floating-point format specifier : %f, %e or %E 
 String printing: %s 
 
+My functions:
+
 Clear console function:
 void clearConsole() {
     for(int j = 0; j < 30; j++) {
