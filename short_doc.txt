@@ -10,3 +10,11 @@ void clearConsole() {
         printf("\n");
     }
 }
+
+Print an array of chars function:
+void print(char o[], int len) {
+    for(int j = 0; j < len; j++) {
+        printf("%c", o[j]);
+    }
+    printf("\n");
+}
